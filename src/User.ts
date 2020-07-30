@@ -7,7 +7,7 @@ export class User {
     lng: number;
   };
 
-  constructor(name: string) {
+  constructor() {
     this.name = faker.name.firstName();
     this.location = {
       lat: parseFloat(faker.address.latitude()),
